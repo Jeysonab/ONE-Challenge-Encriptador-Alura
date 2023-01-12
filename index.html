@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Encriptador - Alura</title>
+		<link rel="shortcut icon" href="img/icono.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<main>
+			<section class="seccionLogo">
+				<img src="img/logo.svg" alt="Logo" />
+			</section>
+			<section class="seccionIngresado">
+				<div class="textoIngresado">
+					<textarea
+						id="textarea"
+						cols="30"
+						rows="10"
+						required
+						placeholder="Ingrese el texto aqui"></textarea>
+				</div>
+				<div class="sugerencia">
+					<img src="img/exclamation.svg" alt="Exclamation" />
+					<p>Solo letras minúsculas y sin acentos</p>
+				</div>
+				<div class="botones">
+					<button id="botonEncriptar">Encriptar</button>
+					<button id="botonDesencriptar">Desencriptar</button>
+				</div>
+			</section>
+			<section class="seccionResultado">
+				<div class="textoResultado" id="textoResultado">
+					<img src="img/espera.svg" alt="Espera" />
+					<h2>Ningún mensaje fue encontrado</h2>
+					<p class="mensaje">
+						Ingresa el texto que desees encriptar o desencriptar.
+					</p>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div>
+				<h4>
+					Challenge ONE - Encriptador de Texto por Jeyson Alonso B.
+					<a href="https://github.com/Jeysonab"
+						><img src="img/github-logo.svg" alt="git logo" />
+					</a>
+				</h4>
+			</div>
+		</footer>
+		<script src="js/script.js"></script>
+	</body>
+</html>
