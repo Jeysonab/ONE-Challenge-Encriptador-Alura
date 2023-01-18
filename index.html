@@ -21,6 +21,7 @@
 						cols="30"
 						rows="10"
 						required
+						oninput="this.value = this.value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z\s]+/g, '')"
 						placeholder="Ingrese el texto aqui"></textarea>
 				</div>
 				<div class="sugerencia">
